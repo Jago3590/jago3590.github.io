@@ -1,0 +1,14 @@
+html{
+    font-size: 50px;
+}
+p{
+    color:red;
+    font-size: 50%;
+}
+.test-class{
+    color:purple;
+}
+#test-id{
+    font-size:100px;
+    color: green;
+}
