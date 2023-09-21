@@ -1,0 +1,39 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+    margin: 0;
+  }
+  
+html {
+font-family: 'Helvetica neue', Arial, 'sans serif';
+font-size: 10px;
+background-color: white
+  }
+   
+/* Card container setup */
+.card{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: lightgreen;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+}
+
+/* Header and footer styles */
+.card header{
+    background-image: linear-gradient(to bottom,rgba(0, 128, 0, 0.676), rgba(144, 238, 144, 0.883));
+    border-radius: 1.5em 1.5em 0 0;
+
+}
+.card footer{
+    background-image: linear-gradient(to bottom,rgba(144,238,144,0.883), rgba(0,128,0,.676));
+    border-radius: 1.5em 1.5em 0 0;
+
+}
+
+/* Content Styles */
+.card article img{
+    float: right;
+    max-height: 100%;
+}
