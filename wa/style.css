@@ -5,10 +5,21 @@ body {
   }
   
 html {
-font-family: 'Helvetica neue', Arial, 'sans serif';
-font-size: 10px;
-background-color: white
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
   }
+
+h2{
+    margin:0;
+    font-size:2em;
+    line-height: 1.5em;
+}
+
+p{
+    line-height: 1em;
+    margin: 0;
+}
    
 /* Card container setup */
 .card{
@@ -22,18 +33,27 @@ background-color: white
 
 /* Header and footer styles */
 .card header{
-    background-image: linear-gradient(to bottom,rgba(0, 128, 0, 0.676), rgba(144, 238, 144, 0.883));
+    height:3em;
+    background-image:linear-gradient(to bottom,rgba(0, 128, 0, 0.676), rgba(144, 238, 144, 0.883));
     border-radius: 1.5em 1.5em 0 0;
+    padding: 1em;
 
 }
 .card footer{
+    font-size: 1.5em;
+    height: 3em;
     background-image: linear-gradient(to bottom,rgba(144,238,144,0.883), rgba(0,128,0,.676));
     border-radius: 1.5em 1.5em 0 0;
-
+    padding: 1em;
 }
 
 /* Content Styles */
+.card article{
+    height:12 em; 
+    background-color: rgba(0, 0, 0, 0.386);
+}
 .card article img{
     float: right;
     max-height: 100%;
 }
+
