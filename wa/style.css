@@ -40,9 +40,8 @@ p{
 
 }
 .card footer{
-    font-size: 1.5em;
-    height: 3em;
-    background-image: linear-gradient(to bottom,rgba(144,238,144,0.883), rgba(0,128,0,.676));
+    height:3em;
+    background-image:linear-gradient(to bottom,rgba(144, 238, 144, 0.883), rgba(0, 128, 0, 0.676));
     border-radius: 1.5em 1.5em 0 0;
     padding: 1em;
 }
