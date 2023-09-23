@@ -10,15 +10,13 @@ html {
     background-color: #ccc;
   }
 
-h2{
+h2, p{
     margin:0;
-    font-size:2em;
-    line-height: 1.5em;
 }
 
-p{
-    line-height: 1em;
-    margin: 0;
+
+h2{
+    font-size: 2em;
 }
    
 /* Card container setup */
@@ -26,33 +24,39 @@ p{
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-color: lightgreen;
-    border: 0.2em solid black;
+    background-color: red;
+    border: 0.2em rgba(0, 0, 0, 0.426);
     border-radius: 1.5em;
-}
+    }
 
 /* Header and footer styles */
 .card header{
     height:3em;
-    background-image:linear-gradient(to bottom,rgba(0, 128, 0, 0.676), rgba(144, 238, 144, 0.883));
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     border-radius: 1.5em 1.5em 0 0;
     padding: 1em;
 
 }
 .card footer{
     height:3em;
-    background-image:linear-gradient(to bottom,rgba(144, 238, 144, 0.883), rgba(0, 128, 0, 0.676));
-    border-radius: 1.5em 1.5em 0 0;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
     padding: 1em;
+}
+
+.card footer p{
+    font-size: 1.5em;
 }
 
 /* Content Styles */
 .card article{
-    height:12 em; 
-    background-color: rgba(0, 0, 0, 0.386);
+    height:12 em;
+    background-color: rgba(0, 0, 0, 0.258);
+    padding:1em;
+    color:white;
 }
 .card article img{
-    float: right;
     max-height: 100%;
+    float: right;
 }
 
