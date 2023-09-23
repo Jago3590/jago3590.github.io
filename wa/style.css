@@ -18,14 +18,16 @@ h2, p{
 h2{
     font-size: 2em;
 }
-   
+
+/* Number 1 Card Setup */
+
 /* Card container setup */
 .card{
     width: 35em;
     height: 22em;
     margin: 5em auto;
     background-color: red;
-    border: 0.2em rgba(0, 0, 0, 0.426);
+    border: 0.2em black;
     border-radius: 1.5em;
     }
 
@@ -50,13 +52,68 @@ h2{
 
 /* Content Styles */
 .card article{
-    height:12 em;
+    height:12em;
     background-color: rgba(0, 0, 0, 0.258);
-    padding:1em;
     color:white;
 }
+
+.card article p{
+    padding:1em;
+}
+
 .card article img{
     max-height: 100%;
     float: right;
 }
 
+
+
+/* Number 2 card setup */
+
+/* Card container setup */
+.card2{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: lightgreen;
+    border: 0.2em black;
+    border-radius: 1.5em;
+    }
+
+/* Header and footer styles */
+.card2 header{
+    height:3em;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+    padding: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card2 footer{
+    height:3em;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    padding: 1em;
+}
+
+.card2 footer p{
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Content Styles */
+.card2 article{
+    height:12em;
+    background-color: rgba(0, 0, 0, 0.258);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card2 article p{
+    padding:1em;
+}
+
+.card2 article img{
+    max-height: 100%;
+    float: right;
+}
