@@ -1,0 +1,21 @@
+.box{
+    border: 2px dashed red;
+}
+
+.text{
+    border: 3px solid green;
+    padding: 10px 20px 30px 40px;
+    margin: 6px
+}
+
+.text2 {
+    border: 7px dashed purple;
+    padding: 10vw;
+    background-color: lightcoral;
+    margin: 25%;
+}
+
+/* ems and rems 
+/* view width and height 
+    /* vw = (view width) percentage of the width of the page, based on the size of the page 
+/* percentages 
