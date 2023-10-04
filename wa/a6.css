@@ -1,9 +1,15 @@
-html {
-  background-image: url(/../img/Sports.jpeg);
+html{
+  background-image: url(/img/Sports.jpeg);
   background-repeat: no-repeat;
+  background-size:cover;
+}
+.score{
+  content: url(/img/Scoreoverlay.png);
+  width: 300px;
 }
 
-.box {
-  background-image: url(/img/Pickleball.png);
+.channel{
+  content:url(/img/Channellogo.png);
+  width: 140px; 
+  position: absolute;
 }
-    
