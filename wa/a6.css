@@ -12,4 +12,6 @@ html{
   content:url(/img/Channellogo.png);
   width: 140px; 
   position: absolute;
+  top:4px;
+  right:10px;
 }
