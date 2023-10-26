@@ -91,18 +91,17 @@ nav ul {
   }
 
   .composers{
-    max-width: 980px;
+    max-width: 100%;
     display:flex;
     flex-direction: row;
     list-style: none;
-    column-count:2;
-    column-gap:20px;
-    padding-top: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding:50px;
+    background-color: lightgoldenrodyellow;
   }
-
+  img{
+    display:flex;
+    width:100%;
+  }
 
 
 
