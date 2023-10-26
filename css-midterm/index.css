@@ -1,0 +1,89 @@
+.music{
+    content: url(images/music.jpeg);
+    width: 100%;
+}
+
+body {
+    background-color: burlywood;
+    color: rgb(82, 1, 82);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+  }
+
+.logo{
+    content:url(images/CoSymphony-Logo-700x400-1.png);
+    position:sticky;
+    top:0;
+    left:0;
+    max-width:150px;
+    max-height: auto;
+  }
+
+.ticketbutton{
+    font-family: Gill Sans, sans-serif;
+    color: rgb(82, 1, 82);
+    font-size: larger;
+    position: absolute;
+    top:20px;
+    right:40px;
+  }
+
+.ticketbutton:hover{
+    color:lightgoldenrodyellow;
+  }
+
+nav {
+    background-color: lightgoldenrodyellow;
+    font-size:large;
+    font-family: Impact, fantasy;
+    color:rgb(82, 1, 82);
+    padding: .5em;
+    position:sticky;
+  }
+  
+  
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #note{
+    content:url(images/musicnote.png);
+    width: 5vw;
+    height:5vw;
+    margin-top: 10px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: notemove;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+  } 
+
+  @keyframes notemove{
+    from {
+        margin-left: 90%;
+    }
+
+    to {
+        margin-left:5%;
+    }
+  }
+
+  article{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+
+
+
+
