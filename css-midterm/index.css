@@ -22,9 +22,9 @@ body {
 .ticketbutton{
     font-family: Gill Sans, sans-serif;
     color: rgb(82, 1, 82);
-    font-size: larger;
+    font-size: large;
     position: absolute;
-    top:20px;
+    top:60px;
     right:40px;
   }
 
@@ -55,7 +55,7 @@ nav ul {
     content:url(images/musicnote.png);
     width: 5vw;
     height:5vw;
-    margin-top: 10px;
+    margin-bottom: 10px;
     position: relative;
     animation-duration: 6s;
     animation-name: notemove;
@@ -75,6 +75,27 @@ nav ul {
   }
 
   article{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+
+  .grid {
+    max-width: 980px;
+    column-count:2;
+    column-gap: 20px;
+    display:flex;
+    flex-direction: row;
+  }
+
+  .composers{
+    max-width: 980px;
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    column-count:2;
+    column-gap:20px;
     padding-top: 5px;
     padding-left: 50px;
     padding-right: 50px;
