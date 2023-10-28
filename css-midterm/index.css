@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: burlywood;
+    background-image:linear-gradient(brown,burlywood);
     font-size: larger;
     color: rgb(82, 1, 82);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,7 +88,16 @@ nav ul {
     column-gap: 20px;
     display:flex;
     flex-direction: row;
+    place-items:center;
+    margin:auto;
   }
+
+  @media only screen and (max-width: 800px) {
+    .grid{
+        flex-direction: column;
+        text-align: center;
+    }
+    }
 
   .composers{
     max-width: 100%;
@@ -103,6 +112,15 @@ nav ul {
     width:100%;
     height:100%;
   }
+
+  
+  @media only screen and (max-width: 800px) {
+    aside{
+      display:none;
+    }
+    }
+
+
 
 
 
