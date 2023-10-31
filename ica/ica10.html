@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button{
+            background-color:indianred;
+            height:100%;
+            width:100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <button>Discount Code</button>
+
+    <script>
+        const button = document.querySelector("button");
+
+        function enterEmail(){
+            let email = prompt ("Enter your email");
+            let name = prompt("Enter your name")
+            button.textContent = `Hi ${name}! Discount Code: 20OFF`;
+        }
+
+        button.addEventListener('click',enterEmail);
+       
+    </script>
+</body>
+</html>
