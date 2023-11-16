@@ -18,8 +18,8 @@ async function getQuote() {
          const json = await response.json();
         
          var index = Math.floor(Math.random() * 25)
-         displayQuote(json[index].name);
 
+         displayQuote(json[index].name);
          answer = json[index].description;
          answerTxt.textContent = '';
     }
