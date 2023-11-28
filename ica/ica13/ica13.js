@@ -66,7 +66,7 @@ class Ball {
       if(this !== ball){
         const dx = this.x - ball.x;
         const dy = this.y - ball.y;
-        const distance = Math.sqrt(dx*dy+dy*dy);
+        const distance = Math.sqrt(dx*dy + dy*dy);
 
         if (distance < this.size + ball.size){
           ball.color = this.color = randomRGB();
