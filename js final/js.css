@@ -1,0 +1,29 @@
+#number {
+  text-decoration: underline;
+  margin: 1px;
+}
+
+body{
+  text-align: center;
+  background-color: yellow;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+@keyframes moving {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(10px, -10px); }
+  40% { transform: translate(0, 0); }
+  60% { transform: translate(-10px, 10px); }
+  80% { transform: translate(0, 0); }
+}
+
+.animated-text {
+  animation: moving 2s infinite;
+}
+
+#press {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #333;
+}
+
