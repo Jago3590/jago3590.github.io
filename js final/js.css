@@ -10,20 +10,18 @@ body{
   }
 
 @keyframes moving {
-  0% { transform: translate(0, 0); }
-  20% { transform: translate(10px, -10px); }
-  40% { transform: translate(0, 0); }
-  60% { transform: translate(-10px, 10px); }
-  80% { transform: translate(0, 0); }
-}
-
-.animated-text {
-  animation: moving 2s infinite;
+  0% { transform: translate(-50px, 50px); }
+  50% { transform: translate(25px, -25px); }
+  100% { transform: translate(-50px, 50px); }
 }
 
 #press {
   display: inline-block;
   padding: 10px;
   border: 2px solid #333;
+  animation-name: moving;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  position:absolute;
 }
 
