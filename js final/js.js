@@ -36,3 +36,7 @@ function keyPress(e) {
 function submit() {
   alert("Invalid Number");
 }
+
+function backspace(){
+  document.getElementById("number").innerHTML = "";
+}
