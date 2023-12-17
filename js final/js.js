@@ -3,7 +3,7 @@ var number;
 
 window.onload = function () {phoneNum()};
 
-window.setInterval(function () {phoneNum()}, 850);
+window.setInterval(function () {phoneNum()}, 900);
 
 function randomLetter() {
   const characters = "abcde";
