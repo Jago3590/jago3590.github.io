@@ -1,0 +1,201 @@
+html {
+  background-image: url(images/background.jpeg);
+  background-repeat: repeat;
+  width:100%;
+  font-family:monospace;
+    }
+
+#home {
+  content: url(images/bgremove.png);
+  height: 60vw;
+  margin-left: 10vw;
+  margin-top: 2vw;
+  margin-bottom: -16px;
+  position: relative;
+}
+
+#square {
+  position: absolute;
+  height: 40vw;
+  width: 40vw;
+  margin-left: 12vw;
+  margin-top: 5vw;
+  font-size: 1rem;
+  color: black;
+  backdrop-filter: blur(8px) brightness(80%);
+  background-size: 50% auto;
+  padding: 10px;
+}
+
+#text-overlay {
+  background-color: black;
+  position: absolute;
+  width:50vw;
+  top: 30vw;
+  right: 0;
+  font-size: 1rem;
+  color: white;
+  background-size: 50% auto;
+  margin-top:10px;
+  padding:10px;
+  }
+
+@media only screen and (max-width: 600px) {
+  #intro-text{
+    display:none;
+    }
+  }
+
+.logo{
+    content:url(images/CoSymphony-Logo-700x400-1.png);
+    position:sticky;
+    top:0;
+    left:0;
+    max-width:150px;
+    max-height: auto;
+  }
+
+
+nav {
+    background-color: gray;
+    font-size:large;
+    color:rgb(82, 1, 82);
+    padding: 2em;
+    position:sticky;
+  }
+  
+  
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: right;
+  }
+
+#note{
+    content:url(images/musicnote.png);
+    width: 5vw;
+    height:5vw;
+    margin-bottom: 10px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: notemove;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+  } 
+
+@keyframes notemove{
+    from {
+        margin-left: 90%;
+    }
+
+    to {
+        margin-left:5%;
+    }
+  }
+
+article{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+
+@media only screen and (max-width: 800px) {
+    .grid{
+        flex-direction: column;
+        text-align: center;
+    }
+    }
+
+.composers{
+    max-width: 100%;
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    padding:50px;
+    background-color: lightgoldenrodyellow;
+  }
+
+img{
+    display:flex;
+    width:100%;
+    height:100%;
+  }
+  
+@media only screen and (max-width: 800px) {
+    aside{
+      display:none;
+    }
+    }
+  
+main{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+
+#Tickets{
+    background-color: brown;
+    text-align: center;
+  }
+
+#Lineup{
+    background-color: brown;
+    text-align: center;
+  }
+
+#Help{
+    background-color: brown;
+    text-align: center;
+  }
+
+#Vivaldi:hover{
+    color:lightgoldenrodyellow;
+}
+
+#Beethoven1:hover{
+    color:lightgoldenrodyellow;
+}
+
+#Beethoven2:hover{
+  color:lightgoldenrodyellow;
+}
+
+#Beethoven3:hover{
+  color:lightgoldenrodyellow;
+}
+
+#Beethoven4:hover{
+  color:lightgoldenrodyellow;
+}
+
+#Tchaikovsky:hover{
+    color:lightgoldenrodyellow;
+}
+
+#Ravel:hover{
+  color:lightgoldenrodyellow;
+}
+
+#Bartok:hover{
+  color:lightgoldenrodyellow;
+}
+
+#Brahms:hover{
+  color:lightgoldenrodyellow;
+}
+
+
+
+
+
+
+
+
+
