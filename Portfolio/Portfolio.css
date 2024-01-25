@@ -2,10 +2,11 @@ html {
   background-image: url(images/background.jpeg);
   background-repeat: repeat;
   width:100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    }
+  font-family:  'Outfit', sans-serif;
+}
 
 #home {
-  content: url(images/bgremove.png);
+  content: url(images/Website\ Headshot.png);
   height: 60vw;
   margin-left: 10vw;
   margin-top: 2vw;
@@ -39,81 +40,42 @@ html {
   padding:10px;
 }
 
+#intro-text{
+  font-size: x-large;
+}
+
 @media only screen and (max-width: 600px) {
 #intro-text{
   display:none;
   }
 }
 
-.logo{
-  content:url(images/Jade-removebg.png);
-  top:0;
-  left:0;
-  max-width:100px;
-  padding:0;
+#logo{
+  content:url(images/Final\ Lettermark.png);
+  height: 150px;
+  padding-top: 15px;
 }
 
 header {
-  color:white;
+  background-color:darkslategray;
+  height: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 5px;
-  justify-content: space-between;
-  background-color: rgba(47, 79, 79, 0.588);
+  box-shadow: 0 0 25px 0 black;
+  color:white;
 }
 
-.nav_links {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
+header * {
+  display: inline;
 }
 
-.nav_links a {
-  cursor: pointer;
-  list-style-type: none;
+header li {
+  margin: 10px;
 }
 
-li {
-  min-width: 80px;
+nav{
+  margin-left:auto;
 }
-  
-#note{
-    content:url(images/musicnote.png);
-    width: 5vw;
-    height:5vw;
-    margin-bottom: 10px;
-    position: relative;
-    animation-duration: 6s;
-    animation-name: notemove;
-    animation-iteration-count: infinite;
-    animation-direction:alternate;
-
-  } 
-
-@keyframes notemove{
-    from {
-        margin-left: 90%;
-    }
-
-    to {
-        margin-left:5%;
-    }
-  }
-
-article{
-    padding-top: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-  }
-
-@media only screen and (max-width: 800px) {
-    .grid{
-        flex-direction: column;
-        text-align: center;
-    }
-    }
 
 .composers{
     max-width: 100%;
@@ -123,82 +85,4 @@ article{
     padding:50px;
     background-color: lightgoldenrodyellow;
   }
-
-img{
-    display:flex;
-    width:100%;
-    height:100%;
-  }
-  
-@media only screen and (max-width: 800px) {
-    aside{
-      display:none;
-    }
-    }
-  
-main{
-    padding-top: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-  }
-
-#Tickets{
-    background-color: brown;
-    text-align: center;
-  }
-
-#Lineup{
-    background-color: brown;
-    text-align: center;
-  }
-
-#Help{
-    background-color: brown;
-    text-align: center;
-  }
-
-#Vivaldi:hover{
-    color:lightgoldenrodyellow;
-}
-
-#Beethoven1:hover{
-    color:lightgoldenrodyellow;
-}
-
-#Beethoven2:hover{
-  color:lightgoldenrodyellow;
-}
-
-#Beethoven3:hover{
-  color:lightgoldenrodyellow;
-}
-
-#Beethoven4:hover{
-  color:lightgoldenrodyellow;
-}
-
-#Tchaikovsky:hover{
-    color:lightgoldenrodyellow;
-}
-
-#Ravel:hover{
-  color:lightgoldenrodyellow;
-}
-
-#Bartok:hover{
-  color:lightgoldenrodyellow;
-}
-
-#Brahms:hover{
-  color:lightgoldenrodyellow;
-}
-
-
-
-
-
-
-
-
 
