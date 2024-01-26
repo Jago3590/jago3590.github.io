@@ -1,12 +1,12 @@
 html {
-  background-image: url(images/background.jpeg);
+  background-image: url(/Portfolio/Home/images/background.jpeg);
   background-repeat: repeat;
   width:100%;
   font-family:  'Outfit', sans-serif;
 }
 
 #home {
-  content: url(images/Website\ Headshot.png);
+  content: url(home/images/Website\ Headshot.png);
   height: 60vw;
   margin-left: 10vw;
   margin-top: 2vw;
@@ -18,11 +18,22 @@ html {
   position: absolute;
   height: 40vw;
   width: 40vw;
-  margin-left: 12vw;
-  margin-top: 5vw;
+  margin-left: 15vw;
+  margin-top: 3vw;
   font-size: 1rem;
-  color: black;
-  backdrop-filter: blur(8px) brightness(80%);
+  backdrop-filter: blur(3px) brightness(50%);
+  background-size: 50% auto;
+  padding: 10px;
+}
+
+#square2 {
+  position: absolute;
+  height: 40vw;
+  width: 40vw;
+  margin-left: 8vw;
+  margin-top: 8vw;
+  font-size: 1rem;
+  backdrop-filter: blur(7px) brightness(50%);
   background-size: 50% auto;
   padding: 10px;
 }
@@ -33,7 +44,7 @@ html {
   width:50vw;
   top: 30vw;
   right: 0;
-  font-size: 1rem;
+  font-size:x-large;
   color: white;
   background-size: 50% auto;
   margin-top:10px;
@@ -44,16 +55,16 @@ html {
   font-size: x-large;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 #intro-text{
   display:none;
   }
 }
 
 #logo{
-  content:url(images/Final\ Lettermark.png);
-  height: 150px;
-  padding-top: 15px;
+  content: url(Home/images/Jade_Gordon-removebg-preview.png);
+  height: 170px;
+  margin-top: -20px;
 }
 
 header {
@@ -63,6 +74,7 @@ header {
   align-items: center;
   box-shadow: 0 0 25px 0 black;
   color:white;
+  font-size: large;
 }
 
 header * {
@@ -77,12 +89,19 @@ nav{
   margin-left:auto;
 }
 
+@media only screen and (max-width: 700px) {
+  nav{
+   font-size: small;
+    }
+  }
+
 .composers{
-    max-width: 100%;
     display:flex;
     flex-direction: row;
     list-style: none;
-    padding:50px;
-    background-color: lightgoldenrodyellow;
+    padding:60px;
+    background-color: darkslategray;
+    margin-top:15px;
   }
+
 
