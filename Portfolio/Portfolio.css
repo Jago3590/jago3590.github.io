@@ -6,7 +6,7 @@ html {
 }
 
 #home {
-  content: url(Home/images/WebsiteHeadshot.png);
+  content: url(/Portfolio/Home/images/WebsiteHeadshot.png);
   height: 60vw;
   margin-left: 10vw;
   margin-top: 2vw;
