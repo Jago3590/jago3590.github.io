@@ -136,7 +136,7 @@ a:hover {
     }
   }
 
-.footbox{
+footer{
     display:flex;
     flex-direction: row;
     list-style: none;
