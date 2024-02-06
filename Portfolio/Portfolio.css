@@ -152,44 +152,32 @@ a:hover {
   }
 
 footer{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    padding:60px;
-    background-color: darkslategray;
-    margin-top:15px;
+  flex-direction: row;
+  list-style: none;
+  padding: 60px;
+  background-color: darkslategray;
+  margin-top: 15px;
+  z-index: 0;
   }
 
  /*About me*/
 
  #aboutpic {
   content:url(/Portfolio/Home/images/About.JPG);
-  height: 40vw;
-  margin-left: 60vw;
+  height: 30vw;
+  margin-left: 70vw;
   margin-top: 2vw;
-  position: relative;
  }
 
  #aboutsquare{
   position: absolute;
   height:37.7vw;
-  width: 57vw;
+  width: 67vw;
   margin-top: 2vw;
   background-color:rgba(81, 110, 110, 0.92); 
   padding: 10px;
  }
 
- #about{
-  color: white;
-  transform: rotate(-90deg);
-  transform-origin: left bottom;
-  position: absolute;
-  bottom: 3vw;
-  left:60px;
-  white-space: nowrap;
-  font-size:x-large;
-  position:absolute;
- }
  #aboutsquare::before {
   content: '';
   position: absolute;
@@ -200,3 +188,23 @@ footer{
   background-color: white; 
   transform: translateX(-50%);
 }
+
+ #aboutcaption{
+  color: white;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  position: absolute;
+  bottom: 3vw;
+  left:60px;
+  font-size:x-large;
+ }
+
+ #aboutbox{
+  width: 57vw;
+  margin-top: 1vw;
+  margin-left:50px;
+  padding: 10px;
+  color:white;
+  font-size: large;
+ }
+
