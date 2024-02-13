@@ -13,7 +13,6 @@ body{
   height: 60vw;
   margin-left: 10vw;
   margin-top: 2vw;
-  margin-bottom: -16px;
   position: relative;
   animation: slideInFromBottom 1s;
 }
@@ -151,27 +150,25 @@ a:hover {
     }
   }
 
-footer{
-  flex-direction: row;
-  list-style: none;
-  padding: 60px;
-  background-color: darkslategray;
-  margin-top: 15px;
-  z-index: 0;
-  }
-
  /*About me*/
 
  #aboutpic {
   content:url(/Portfolio/Home/images/About.JPG);
   height: 30vw;
   margin-left: 70vw;
-  margin-top: 2vw;
+  margin-top: 5vw;
  }
 
  #aboutsquare{
   position: absolute;
-  height:37.7vw;
+  width: 67vw;
+  margin-top: 2vw;
+  background-color:rgba(81, 110, 110, 0.92); 
+  padding: 10px;
+ }
+ 
+ #anothersquare{
+  position: absolute;
   width: 67vw;
   margin-top: 2vw;
   background-color:rgba(81, 110, 110, 0.92); 
@@ -199,7 +196,7 @@ footer{
   font-size:x-large;
  }
 
- #aboutbox{
+ #abouttext{
   width: 57vw;
   margin-top: 1vw;
   margin-left:50px;
@@ -207,4 +204,14 @@ footer{
   color:white;
   font-size: large;
  }
+
+  /*Resume*/
+
+  #resume{
+    content: url(/Portfolio/Home/images/Resume.jpg);
+    height: 800px;
+    margin-top: 2vw;
+    margin-left: 30vw;
+  }
+
 
