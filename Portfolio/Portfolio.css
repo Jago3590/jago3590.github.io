@@ -154,25 +154,23 @@ a:hover {
 
  #aboutpic {
   content:url(/Portfolio/Home/images/About.JPG);
-  height: 30vw;
-  margin-left: 70vw;
-  margin-top: 5vw;
+  width: 37vw;
+  margin-left: 2vw;
+  margin-top: 250px;
  }
 
  #aboutsquare{
   position: absolute;
-  width: 67vw;
   margin-top: 2vw;
   background-color:rgba(81, 110, 110, 0.92); 
-  padding: 10px;
  }
- 
- #anothersquare{
-  position: absolute;
-  width: 67vw;
-  margin-top: 2vw;
-  background-color:rgba(81, 110, 110, 0.92); 
+
+ #abouttext{
+  width: fit-content;
+  margin-left:50px;
   padding: 10px;
+  color:white;
+  font-size: large;
  }
 
  #aboutsquare::before {
@@ -196,14 +194,23 @@ a:hover {
   font-size:x-large;
  }
 
- #abouttext{
+
+ #anothertext{
+  position:absolute;
   width: 57vw;
-  margin-top: 1vw;
-  margin-left:50px;
+  margin-top: 250px;
+  margin-left:40vw;
   padding: 10px;
   color:white;
   font-size: large;
+  background-color:rgba(81, 110, 110, 0.92); 
  }
+
+ @media only screen and (max-width: 800px) {
+  #anothertext{
+    display:none;
+    }
+  }
 
   /*Resume*/
 
